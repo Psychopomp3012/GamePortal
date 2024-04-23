@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/GamePortal/static/css/main.519e7c6b.css",
+    "main.js": "/GamePortal/static/js/main.47edcddf.js",
+    "static/media/camp2.png": "/GamePortal/static/media/camp2.d0357c5688c98cfa04ad.png",
+    "static/media/SFX_UI_Button_Mouse_Thick_Generic_2.wav": "/GamePortal/static/media/SFX_UI_Button_Mouse_Thick_Generic_2.12ea3ddfb14a5bdd6ea8.wav",
+    "index.html": "/GamePortal/index.html",
+    "main.519e7c6b.css.map": "/GamePortal/static/css/main.519e7c6b.css.map",
+    "main.47edcddf.js.map": "/GamePortal/static/js/main.47edcddf.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.519e7c6b.css",
+    "static/js/main.47edcddf.js"
+  ]
+}
