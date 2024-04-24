@@ -1,0 +1,178 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+body {
+    background-color: black;
+    overflow: hidden;
+}
+
+.circle {
+    position: fixed;
+    --circle-size: 50px;
+    width: var(--circle-size);
+    height: var(--circle-size);
+    border-radius: 100%;
+    border: 3px solid white;
+    top: calc(var(--circle-size) / 2 * -1);
+    left: calc(var(--circle-size) / 2 * -1);
+    z-index: -1;
+}
+.button {
+    background-color: white;
+    color: black;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    padding: 15px 15px 15px 15px;
+    font-size: 20px;
+    font-weight: 700;
+    transition: 0.5s;
+    background-color: black;/*rgb(28, 219, 108);#2de0f0;*/
+    color: white;
+    border: 3px solid white;
+    z-index: 1;
+}
+
+.button:hover {
+    letter-spacing: 8px;
+    background: #1e9bff;
+    box-shadow: 0px 0px 30px #1e9bff;
+    cursor: pointer;
+}  
+
+.button:before {
+    content: "";
+}
+
+.span1:before {
+    content: ">>";
+    color:rgb(5, 45, 49);
+}
+.span1:after {
+    content: "<<";
+    color: rgb(5, 45, 49);
+}
+
+.wrapper {
+    /* display: flex;
+    flex-direction: column;
+    justify-content:space-evenly;
+    align-items: center; */
+    width: 100vw;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: 10% 90%;
+}
+
+ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    /* border: 3px solid wheat; */
+    height: 100%;
+}
+
+.portalHeading {
+    font-size: 30px;
+    font-family: monospace;
+    text-transform: uppercase;
+    color: wheat;
+    text-decoration: none;
+    text-align: center;
+    margin: 40px 0px 0px 0px;
+}
+
+
+/* Contact info */
+
+.icon {
+    color: white;
+    font-size: 40px;
+}
+
+.contactInfo {
+    color: white;
+    font-size: 24px;
+    font-family: monospace;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 3px solid white;
+    margin: 0px 0px 20px 0px;
+    max-width: 800px;
+    width: 70vw;
+    padding: 10px 20px;
+}
+
+.contactText {
+    margin: 0px 0px 10px 0px;
+}
+
+.contactInfoSection {
+    border: 3px solid wheat;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.someText {
+    display: inline;
+    margin: 0px 0px 0px 10px;
+}
+
+@media screen and (max-width: 750px) {
+    .contactInfo {
+        font-size: 20px;
+        padding: 5px 10px;
+    }
+    .icon {
+        font-size: 35px;
+    }
+    .contactInfoSection {
+        padding: 5px 10px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .contactInfo {
+        font-size: 18px;
+    }
+    .icon {
+        font-size: 30px;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .contactInfo {
+        font-size: 17px;
+    }
+    .icon {
+        font-size: 20px;
+    }
+    .portalHeading {
+        font-size: 25px;
+    }
+    .button {
+        font-size: 18px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .contactInfo {
+        font-size: 12px;
+    }
+    .icon {
+        font-size: 15px;
+    }
+    .portalHeading {
+        font-size: 22px;
+    }
+    .button {
+        font-size: 16px;
+    }
+}
