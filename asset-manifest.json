@@ -1,15 +1,16 @@
 {
   "files": {
-    "main.css": "/GamePortal/static/css/main.519e7c6b.css",
-    "main.js": "/GamePortal/static/js/main.47edcddf.js",
+    "main.css": "/GamePortal/static/css/main.bf6c16f0.css",
+    "main.js": "/GamePortal/static/js/main.58307d69.js",
     "static/media/camp2.png": "/GamePortal/static/media/camp2.d0357c5688c98cfa04ad.png",
+    "static/media/Pink Panther.mp3": "/GamePortal/static/media/Pink Panther.7e29fee2674942093d40.mp3",
     "static/media/SFX_UI_Button_Mouse_Thick_Generic_2.wav": "/GamePortal/static/media/SFX_UI_Button_Mouse_Thick_Generic_2.12ea3ddfb14a5bdd6ea8.wav",
     "index.html": "/GamePortal/index.html",
-    "main.519e7c6b.css.map": "/GamePortal/static/css/main.519e7c6b.css.map",
-    "main.47edcddf.js.map": "/GamePortal/static/js/main.47edcddf.js.map"
+    "main.bf6c16f0.css.map": "/GamePortal/static/css/main.bf6c16f0.css.map",
+    "main.58307d69.js.map": "/GamePortal/static/js/main.58307d69.js.map"
   },
   "entrypoints": [
-    "static/css/main.519e7c6b.css",
-    "static/js/main.47edcddf.js"
+    "static/css/main.bf6c16f0.css",
+    "static/js/main.58307d69.js"
   ]
 }
